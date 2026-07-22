@@ -1,0 +1,7 @@
+pygithub
+pandas
+xlsxwriter
+python-dotenv
+pyjwt
+requests
+cryptography

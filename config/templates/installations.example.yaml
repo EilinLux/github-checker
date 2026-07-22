@@ -1,0 +1,23 @@
+# Example installations.yaml
+#
+# This file lists all GitHub App installations to analyze.
+# Generate this file by running:
+#   python apps/main_analyzer/find_installations.py
+#
+# Format: Each installation should have:
+#   - account_login: The organization or user account name
+#   - installation_id: The GitHub App installation ID for this account
+
+installations:
+  - account_login: "organization-1"
+    installation_id: 12345678
+  - account_login: "organization-2"
+    installation_id: 87654321
+  - account_login: "my-user"
+    installation_id: 11111111
+
+# Notes:
+# - account_login is case-sensitive and must match the GitHub account name
+# - installation_id can be found in the GitHub App's installation URL:
+#   https://github.com/apps/your-app/installations/[installation_id]
+# - All specified installations will be analyzed when you run main.py

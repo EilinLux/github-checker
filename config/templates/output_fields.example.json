@@ -1,0 +1,27 @@
+{
+  "_comment": "Define which fields to include in the Excel report. Remove fields you don't need.",
+  "fields": [
+    "Nome Repo",
+    "Descrizione",
+    "Licenza",
+    "Archiviata",
+    "Data Ultimo Commit",
+    "Stato README",
+    "Branch Default",
+    "Stato Protezione Branch Default",
+    "Permessi Lettura (Collaboratori Diretti)",
+    "Permessi Scrittura (Collaboratori Diretti)",
+    "Permessi per Team (Team: Livello)",
+    "Numero Webhooks Attivi",
+    "Tempo Medio Merge PR (Ult. 50)",
+    "Numero Issue Aperte",
+    "Numero Pull Request Aperte",
+    "Dependabot Attivo",
+    "Top Contributori",
+    "Linguaggi Principali",
+    "Codacy/SonarQube Attivo",
+    "Branch (Nomi)",
+    "Numero File per Branch",
+    "Dimensione (MB)"
+  ]
+}

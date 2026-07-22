@@ -1,0 +1,10 @@
+{
+  "fields": [
+    "Nome Repo",
+    "Data Ultimo Commit",
+    "Stato README",
+    "Linguaggi Principali",
+    "Permessi Scrittura (Collaboratori Diretti)",
+    "Branch Default"
+  ]
+}

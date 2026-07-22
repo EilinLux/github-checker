@@ -1,0 +1,28 @@
+{
+  "fields": [
+    "Nome Repo",
+    "Descrizione",
+    "Archiviata",
+    "Data Ultimo Commit",
+    "Stato README",
+    "Linguaggi Principali",
+    "Dimensione (MB)",
+    "Permessi Lettura (Collaboratori Diretti)",
+    "Permessi Scrittura (Collaboratori Diretti)",
+    "Permessi per Team (Team: Livello)",
+    "Licenza"
+    
+    // --- Campi Aggiuntivi (decommenta per includere) ---
+    // "Branch Default",
+    // "Stato Protezione Branch Default",
+    // "Numero Webhooks Attivi",
+    // "Tempo Medio Merge PR (Ult. 50)",
+    // "Numero Issue Aperte",
+    // "Numero Pull Request Aperte",
+    // "Dependabot Attivo",
+    // "Top Contributori",
+    // "Codacy/SonarQube Attivo",
+    // "Branch (Nomi)",
+    // "Numero File per Branch"
+  ]
+}

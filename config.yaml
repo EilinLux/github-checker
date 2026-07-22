@@ -1,0 +1,40 @@
+# CONFIGURATION FOR THE GITHUB ANALYZER
+
+# General analysis settings
+ANALYSIS_CONFIG:
+  DEBUG_MODE: False
+  # Number of closed PRs to check for calculating average merge time
+  PR_MERGE_TIME_LIMIT: 50
+
+# Configuration for file and page naming
+REPORT_SETTINGS:
+  # The prefix for the generated Excel file
+  REPORT_FILE_PREFIX: report_repository_
+  # The prefix for the Confluence page title
+  CONFLUENCE_PAGE_TITLE_PREFIX: "Report Repository GitHub - "
+
+# --- Main Report Configuration ---
+# List of fields to include in the final report.
+# The report will only include these fields, in this exact order.
+# Keys MUST match the keys used in the `repo_info` dictionary in `utils.py`.
+# EXCEL_FIELDS:
+#   - "Repo Name"
+#   # - "Description"
+#   # - "License"
+#   - "Archived"
+#   - "Last Commit Date"
+#   - "README Status"
+#   - "Default Branch"
+#   - "Default Branch Protection"
+#   - "Write Permissions (Direct)"
+#   - "Active Webhooks"
+#   # - "Avg PR Merge Time (Days)"
+#   # - "Open Issues"
+#   # - "Open Pull Requests"
+#   # - "Dependabot Active"
+#   - "Top Contributors"
+#   - "Main Languages"
+#   # - "Codacy/SonarQube Active"
+#   # - "Branch Names"
+#   # - "File Count per Branch"
+#   # - "Size (MB)"

@@ -46,6 +46,13 @@ github-checker/
 │   │   ├── README.md
 │   │   └── owner_analyzer.py       # Team analysis logic
 │   │
+│   ├── confluence_analyzer/       # GitHub to Confluence sync
+│   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── main.py                # Entry point
+│   │   ├── confluence_analyzer.py  # Repository analyzer logic
+│   │   └── confluence_database_writer.py # Confluence API v2 writer
+│   │
 │   ├── compare_tools/             # Repository comparison
 │   │   ├── __init__.py
 │   │   ├── README.md
@@ -97,6 +104,9 @@ uv run python apps/main_analyzer/main.py
 
 # Owner analysis
 uv run python apps/owner_analyzer/owner_analyzer.py
+
+# Confluence analyzer (GitHub to Confluence sync)
+uv run python apps/confluence_analyzer/main.py
 
 # Comparison tools
 uv run python apps/compare_tools/compare.py
